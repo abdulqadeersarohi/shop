@@ -1,23 +1,158 @@
-* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
-body { background: #f7f7f7; }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
 
-nav { background: #131921; color: white; display: flex; justify-content: space-between; padding: 15px 5%; align-items: center; position: sticky; top: 0; z-index: 100; }
-nav ul { display: flex; list-style: none; }
-nav ul li { margin-left: 20px; cursor: pointer; }
-nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+body {
+    background: #d5cece;
+}
 
-.page { padding: 50px 5%; min-height: 90vh; }
-.hero { text-align: center; background: white; padding: 100px 20px; border-radius: 10px; }
-.hero h1 { font-size: 3rem; color: #232f3e; }
+nav {
+    background: #131921;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
 
-.search-bar { text-align: center; margin-bottom: 30px; }
-#searchBox { width: 60%; padding: 12px; border: 2px solid #febd69; border-radius: 25px; outline: none; }
+nav ul {
+    display: flex;
+    list-style: none;
+}
 
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
-.card { background: white; padding: 15px; border-radius: 8px; text-align: center; transition: 0.3s; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
-.card:hover { transform: translateY(-5px); box-shadow: 0 8px 15px rgba(0,0,0,0.1); }
-.card img { width: 100%; height: 180px; object-fit: contain; }
-.price { color: #B12704; font-size: 1.4rem; font-weight: bold; margin: 10px 0; }
+nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+}
 
-.wa-btn { background: #25D366; color: white; text-decoration: none; padding: 10px; display: block; border-radius: 5px; font-weight: bold; }
-.contact-box { background: white; padding: 40px; text-align: center; border-radius: 10px; max-width: 500px; margin: auto; }
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.page {
+    padding: 50px 5%;
+    min-height: 90vh;
+}
+
+.hero {
+    text-align: center;
+    background: rgb(7, 4, 111);
+    padding: 100px 20px;
+    border-radius: 50px;
+    background: linear-gradient(to right,rgb(240, 127, 85) , rgb(57, 57, 170));
+
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: black;
+}
+.hero p{
+    color: black;
+    font-size: large;
+}
+
+.hero button {
+    background: linear-gradient(45deg, #14053a, #3860aa);
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.hero button:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#searchBox {
+    width: 60%;
+    padding: 12px;
+    border: 2px solid #0d196b;
+    border-radius: 25px;
+    outline: none;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+
+.price {
+    color: #B12704;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.wa-btn {
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.contact-box {
+    background: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+footer {
+    background: #131921;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    font-size: 14px;
+}
